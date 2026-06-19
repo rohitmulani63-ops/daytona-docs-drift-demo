@@ -1,0 +1,8 @@
+﻿[project]
+name = "daytona-docs-drift-demo"
+version = "0.1.0"
+description = "A tiny docs-drift repair demo for Daytona AI engineering workflows."
+requires-python = ">=3.10"
+
+[project.scripts]
+docs-drift-demo = "docs_drift_demo.cli:main"
