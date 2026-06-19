@@ -5,13 +5,17 @@ This tiny repository is used by the Daytona guide to practice a docs-drift repai
 ## Start the demo
 
 ```bash
-python run.py --serve
+docs-drift-demo --status
 ```
 
 ## Expected output
 
-The command should print a short status line for the demo service.
+The command prints a short status line for the demo service:
+
+```text
+Daytona docs-drift demo: ready
+```
 
 ## Exercise
 
-The README intentionally contains a command that no longer matches the package entry point. Use an AI engineer to compare the documentation with the code, patch the README, and record the release-readiness checks in `docs/release-readiness.md`.
+The `docs-drift-start` branch intentionally contains an older command that no longer matches the package entry point. Use an AI engineer to compare the documentation with the code, patch the README, and record the release-readiness checks in `docs/release-readiness.md`.
